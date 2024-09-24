@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    width: 25vw;
+    height: 55vh;
+    background-color: bisque;
+    border-radius: 15px;
+}
+
+h2 {
+    text-align: center;
+    color: purple;
+    margin-top: 25px;
+}
+
+input {
+    margin-top: 23px;
+    margin-left: 90px;
+    width: 140px;
+    height: 20px;
+    padding: 3px;
+    background-color: bisque;
+}
+
+a{
+    display: block;
+    margin-left: 70px;
+}
+
+#account {
+    margin-top: 25px;
+}
+
+#password {
+    margin-top: 5px;
+}
+
+button {
+    margin-left: 120px;
+    margin-top: 20px;
+    background-color: bisque;
+    width: 70px;
+    height: 30px;
+    cursor: pointer;
+    padding: 2px;
+}
+
+button:hover {
+    background-color: purple;
+    color: white;
+}
